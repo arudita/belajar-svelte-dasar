@@ -8,7 +8,11 @@ export default defineConfig({
     rolldownOptions: {
       input: {
         index: 'index.html',
-        hello: 'hello.html'
+        hello: 'hello.html',
+        auto_counter: 'auto-counter.html',
+        global_counter: 'global-counter.html',
+        say_hello: 'say-hello.html',
+        user: 'user.html'
       }
     }
   }

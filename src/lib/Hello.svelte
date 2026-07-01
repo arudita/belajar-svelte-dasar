@@ -1,4 +1,6 @@
 <script>
+    import CounterNew from "./CounterNew.svelte";
+
 const name = 'Fajar Setiawan';
 const src = 'https://images.pexels.com/photos/6340908/pexels-photo-6340908.jpeg';
 const alt = "Aerial view of Jakarta's skyline at sunset surrounded by lush greenery and urban roads";
@@ -12,6 +14,8 @@ const paragraph_text = '<p style="color: orange;">Lorem ipsum dolor, sit amet co
 <img {src} {alt} style="width: 300px; margin: 1rem auto;">
 
 {@html paragraph_text}
+
+<CounterNew />
 
 <style>
     h1 {
